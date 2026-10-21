@@ -1,19 +1,36 @@
-## Hi, I'm AryThakar 👋
+## Hi, I'm Ary 👋
 
-I build software that runs AI privately, on your own hardware.
+I build AI that runs on hardware you own: private by default, checked by code, and easy to try.
 
-### Featured project
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/AryThakar/Zen-harness"><img src="https://raw.githubusercontent.com/AryThakar/Zen-harness/main/docs/images/social-preview.png" alt="Zen harness"></a>
 
-**[Zen](https://github.com/AryThakar/zen)**: a private voice assistant that runs entirely on
-your own PC. Speech recognition, a language model and streaming speech synthesis, all local, on
-a 4 GB laptop GPU.
+### [Zen harness](https://github.com/AryThakar/Zen-harness)
 
-- Rust + Tauri desktop app with a hand-written WebView2 interface
-- llama.cpp server with two fixed slots and Multi-Token Prediction drafting, generating 81–97
-  tokens/s on an RTX 3050 Laptop GPU
+A personal assistant that gets real work out of an open model you run yourself.
+
+- One assistant and three helpers - the web, your documents, an analyst-programmer - in projects of real files
+- Facts, numbers, files and the games it builds are checked by code before you see them
+- Qwen 3.6 35B-A3B on a free Kaggle GPU; a Windows app to download
+- Python · FastAPI · llama.cpp · tested in CI
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/AryThakar/zen"><img src="https://raw.githubusercontent.com/AryThakar/zen/main/docs/social-preview.png" alt="Zen"></a>
+
+### [Zen](https://github.com/AryThakar/zen)
+
+A private voice assistant that runs entirely on your own PC.
+
+- Speech recognition, a language model and streaming speech synthesis, all local, on a 4 GB laptop GPU
+- Replies at 81-97 tokens/s, first audio in about 0.6 s (RTX 3050 Laptop)
 - Interruptible turn-taking, with an end-of-turn pause that adapts to the speaker
-- 266 automated tests in CI, plus a self-test against the real models
+- Rust · Tauri · llama.cpp · ONNX Runtime
+</td>
+</tr>
+</table>
 
-### Tools I use
+### What I work with
 
-Rust · JavaScript · Tauri · llama.cpp · ONNX Runtime · Git · GitHub Actions
+Python · Rust · JavaScript · FastAPI · Tauri · llama.cpp · ONNX Runtime · Playwright · GitHub Actions
